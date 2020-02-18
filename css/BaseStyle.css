@@ -1,0 +1,12 @@
+body{
+    background-image: linear-gradient(#C6DBF0, #AED1E6, #92AFD7);
+}
+body, html{
+    width: 100%;
+}
+.whitespace span{
+    display: block;
+}
+.buttonstyling{
+    margin-bottom: 20px;
+}
