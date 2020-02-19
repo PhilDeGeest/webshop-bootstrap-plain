@@ -1,0 +1,254 @@
+body {
+    background: #ffffff;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.button1 {
+    box-shadow: inset 0 0 0 6px #aa7bc9;
+    color: #aa7bc9;
+    -webkit-transition: color 0.25s 0.0833333333s;
+    transition: color 0.25s 0.0833333333s;
+    position: relative;
+    border-radius: 6px;
+}
+.button1::before, .button1::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+}
+.button1::before {
+    border-bottom-width: 6px;
+    border-left-width: 6px;
+}
+.button1::after {
+    border-top-width: 6px;
+    border-right-width: 6px;
+}
+.button1:hover {
+    color: #663b82;
+}
+.button1:hover::before, .button1:hover::after {
+    border-color: #663b82;
+    -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+.button1:hover::before {
+    -webkit-transition-delay: 0s, 0s, 0.25s;
+    transition-delay: 0s, 0s, 0.25s;
+}
+.button1:hover::after {
+    -webkit-transition-delay: 0s, 0.25s, 0s;
+    transition-delay: 0s, 0.25s, 0s;
+}
+.button1 {
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    font: 100 1.5rem 'Lacquer', sans-serif;
+    font-weight: bold;
+    padding: 1em 1em;
+    letter-spacing: 0.05rem;
+}
+.button1:focus {
+    outline: 2px dotted #ffffff;
+}
+
+
+.button2 {
+    box-shadow: inset 0 0 0 6px #ffbbd7;
+    color: #ffbbd7;
+    -webkit-transition: color 0.25s 0.0833333333s;
+    transition: color 0.25s 0.0833333333s;
+    position: relative;
+    border-radius: 6px;
+}
+.button2::before, .button2::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+}
+.button2::before {
+    border-bottom-width: 6px;
+    border-left-width: 6px;
+}
+.button2::after {
+    border-top-width: 6px;
+    border-right-width: 6px;
+}
+.button2:hover {
+    color: #af526f;
+}
+.button2:hover::before, .button2:hover::after {
+    border-color: #af526f;
+    -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+.button2:hover::before {
+    -webkit-transition-delay: 0s, 0s, 0.25s;
+    transition-delay: 0s, 0s, 0.25s;
+}
+.button2:hover::after {
+    -webkit-transition-delay: 0s, 0.25s, 0s;
+    transition-delay: 0s, 0.25s, 0s;
+}
+.button2 {
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    font: 100 1.5rem 'Lacquer', sans-serif;
+    font-weight: bold;
+    padding: 1em 1em;
+    letter-spacing: 0.05rem;
+}
+.button2:focus {
+    outline: 2px dotted #ffffff;
+}
+
+
+.button3 {
+    box-shadow: inset 0 0 0 6px #c8ee63;
+    color: #c8ee63;
+    -webkit-transition: color 0.25s 0.0833333333s;
+    transition: color 0.25s 0.0833333333s;
+    position: relative;
+    border-radius: 6px;
+}
+.button3::before, .button3::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+}
+.button3::before {
+    border-bottom-width: 6px;
+    border-left-width: 6px;
+}
+.button3::after {
+    border-top-width: 6px;
+    border-right-width: 6px;
+}
+.button3:hover {
+    color: #679f48;
+}
+.button3:hover::before, .button3:hover::after {
+    border-color: #679f48;
+    -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+.button3:hover::before {
+    -webkit-transition-delay: 0s, 0s, 0.25s;
+    transition-delay: 0s, 0s, 0.25s;
+}
+.button3:hover::after {
+    -webkit-transition-delay: 0s, 0.25s, 0s;
+    transition-delay: 0s, 0.25s, 0s;
+}
+.button3 {
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    font: 100 1.5rem 'Lacquer', sans-serif;
+    font-weight: bold;
+    padding: 1em 1em;
+    letter-spacing: 0.05rem;
+}
+.button3:focus {
+    outline: 2px dotted #ffffff;
+}
+
+
+.button4 {
+    box-shadow: inset 0 0 0 6px #87eaff;
+    color: #87eaff;
+    -webkit-transition: color 0.25s 0.0833333333s;
+    transition: color 0.25s 0.0833333333s;
+    position: relative;
+    border-radius: 6px;
+}
+.button4::before, .button4::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+}
+.button4::before {
+    border-bottom-width: 6px;
+    border-left-width: 6px;
+}
+.button4::after {
+    border-top-width: 6px;
+    border-right-width: 6px;
+}
+.button4:hover {
+    color: #4b91cc;
+}
+.button4:hover::before, .button4:hover::after {
+    border-color: #4b91cc;
+    -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+.button4:hover::before {
+    -webkit-transition-delay: 0s, 0s, 0.25s;
+    transition-delay: 0s, 0s, 0.25s;
+}
+.button4:hover::after {
+    -webkit-transition-delay: 0s, 0.25s, 0s;
+    transition-delay: 0s, 0.25s, 0s;
+}
+.button4 {
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    font: 100 1.5rem 'Lacquer', sans-serif;
+    font-weight: bold;
+    padding: 1em 1em;
+    letter-spacing: 0.05rem;
+}
+.button4:focus {
+    outline: 2px dotted #ffffff;
+}
+
